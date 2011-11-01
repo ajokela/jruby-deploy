@@ -1,7 +1,11 @@
 Simple rake (and configuration file) for deploying a jruby 
-project to a tomcat (or other servlet) server
+project to a tomcat (or other servlet) server over ssh/scp
 
 =========================================
+
+(There is an assumption that you have public/private keys
+configured between the machine you are deploying from and 
+the machine you are deploying to.)
 
 + Put build.rake into lib/tasks (for Rails)
 + Put build.yml into config (again, for Rails)
