@@ -31,6 +31,6 @@ The rake/task file will give you the following:
 	#> rake build:war
 	#> rake build:deploy
 
-Final note, in config/warble.rb, you have to have ' config.jar_name = "imgf.us" ' commented out.
+Final note, in config/warble.rb, you have to have ' config.jar_name = "..." ' commented out.
 
-	  # config.jar_name = "project_awesome.war"
+	  # config.jar_name = "project_awesome"
