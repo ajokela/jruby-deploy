@@ -4,6 +4,8 @@ namespace :build do
 
   desc "Warble the project - package into Java war file"
   task :war do
+    require 'warbler'
+    Warbler::Task.new
     
     Rake::Task["assets:precompile"].invoke
     Rake::Task["war"].invoke
