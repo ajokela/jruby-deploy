@@ -8,13 +8,13 @@ project to a tomcat (or other servlet) server
 
 Edit config/build.yml to fit your environment.
 
-  production:
-    host: awesome-host.biz
-    user: root
-    tmp: /tmp
-    dest: /var/lib/tomcat7/webapps/ROOT.war 
-    cmd: /etc/init.d/tomcat7
-    use_cmd: true
+	production:
+		host: awesome-host.biz
+		user: root
+		tmp: /tmp
+		dest: /var/lib/tomcat7/webapps/ROOT.war 
+		cmd: /etc/init.d/tomcat7
+		use_cmd: true
 
 The configuration file is broken into Rails environment-based
 chunks.  The configured options are as follows:
