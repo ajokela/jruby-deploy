@@ -1,0 +1,17 @@
+
+development:
+  host: shell.gladstone-tech.com
+  user: root
+  tmp: /tmp
+  dest: /var/lib/tomcat7/webapps/ROOT.war 
+  cmd: /etc/init.d/tomcat7
+  use_cmd: true
+  
+production:
+  host: shell.gladstone-tech.com
+  user: root
+  tmp: /tmp
+  dest: /var/lib/tomcat7/webapps/ROOT.war 
+  cmd: /etc/init.d/tomcat7
+  use_cmd: true
+  
