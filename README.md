@@ -3,7 +3,7 @@ project to a tomcat (or other servlet) server
 
 =========================================
 
-+ Put build.rake and warbler.rake into lib/tasks (for Rails)
++ Put build.rake into lib/tasks (for Rails)
 + Put build.yml into config (again, for Rails)
 
 Edit config/build.yml to fit your environment.
