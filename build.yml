@@ -1,6 +1,6 @@
 
 development:
-  host: shell.gladstone-tech.com
+  host: awesome-host.biz
   user: root
   tmp: /tmp
   dest: /var/lib/tomcat7/webapps/ROOT.war 
